@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Patrick Hand", sans-serif;
+    color: #424242;
+  }
+  body {
+    overflow: hidden;
+  }
+  header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: #ffffff;
+    font-size: 30pt;
+  }
+  
+  header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  section {
+    height: calc(100vh - 40px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: #303030;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow-y: auto;
+    padding: 40px;
+  }
+  
+  .card {
+    width: 450px;
+    height: 300px;
+    display: flex;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .card h3{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20pt;
+  }
